@@ -1,0 +1,8 @@
+slot,worker,group,starts,ends,skills,access
+s1,A1,west,2026-02-12T08:00,2026-02-12T16:00,repair;check,key;desk
+s2,A2,west,2026-02-12T08:00,2026-02-12T16:00,repair,desk
+s3,B1,east,2026-02-12T08:00,2026-02-12T16:00,repair,key
+s4,A1,west,2026-02-12T16:00,2026-02-13T00:00,repair;check,key;desk
+s5,A2,west,2026-02-12T16:00,2026-02-13T00:00,check,desk
+s6,B1,east,2026-02-12T16:00,2026-02-13T00:00,repair,key
+s7,B2,east,2026-02-12T16:00,2026-02-13T00:00,repair;check,key;desk

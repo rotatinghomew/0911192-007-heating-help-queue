@@ -1,0 +1,4 @@
+notice,left,right,relation,known
+n1,t07,t08,same,2026-02-10T15:00
+n2,t08,t09,same,2026-02-12T07:00
+n3,t08,t09,split,2026-02-12T18:00

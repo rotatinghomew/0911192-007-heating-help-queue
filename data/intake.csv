@@ -1,0 +1,13 @@
+ticket,home,outage,wave,at,known,district,kind,source,access
+t01,H1,O11,W1,2025-12-01T08:02,2025-12-01T08:05,west,repair,hotline,key
+t02,H2,O12,W1,2025-12-02T09:10,2025-12-02T12:15,east,check,property,desk
+t03,H3,O13,W1,2025-12-02T12:30,2025-12-02T12:40,east,repair,hotline,desk
+t04,H4,O21,W2,2026-01-08T09:00,2026-01-08T09:20,west,repair,hotline,key
+t05,H5,O22,W2,2026-01-09T11:00,2026-01-09T14:00,west,check,property,desk
+t06,H6,O23,W2,2026-01-10T12:00,2026-01-10T14:10,east,check,property,desk
+t07,H7,O31,W3,2026-02-10T06:15,2026-02-10T06:15,east,repair,hotline,key
+t08,H7,O88,W3,2026-02-10T07:00,2026-02-10T11:00,east,repair,property,key
+t09,H7,O32,W3,2026-02-11T23:00,2026-02-12T00:00,east,repair,hotline,key
+t10,H8,O33,W3,2026-02-12T08:00,2026-02-12T08:05,west,check,hotline,desk
+t11,H8,O41,W4,2026-03-03T09:00,2026-03-03T09:10,west,repair,hotline,desk
+t12,H9,O42,W4,2026-03-04T10:00,2026-03-04T10:05,east,repair,hotline,key

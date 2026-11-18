@@ -1,0 +1,91 @@
+{
+  "tables": {
+    "cold_waves": [
+      "wave",
+      "begins",
+      "ends",
+      "level"
+    ],
+    "intake": [
+      "ticket",
+      "home",
+      "outage",
+      "wave",
+      "at",
+      "known",
+      "district",
+      "kind",
+      "source",
+      "access"
+    ],
+    "identity_notices": [
+      "notice",
+      "left",
+      "right",
+      "relation",
+      "known"
+    ],
+    "followups": [
+      "evidence",
+      "ticket",
+      "event",
+      "at",
+      "known"
+    ],
+    "shift_staff": [
+      "slot",
+      "worker",
+      "group",
+      "starts",
+      "ends",
+      "skills",
+      "access"
+    ],
+    "assignments": [
+      "assignment",
+      "slot",
+      "ticket",
+      "confirmed",
+      "starts",
+      "ends"
+    ]
+  },
+  "references": [
+    [
+      "intake",
+      "wave",
+      "cold_waves",
+      "wave"
+    ],
+    [
+      "identity_notices",
+      "left",
+      "intake",
+      "ticket"
+    ],
+    [
+      "identity_notices",
+      "right",
+      "intake",
+      "ticket"
+    ],
+    [
+      "followups",
+      "ticket",
+      "intake",
+      "ticket"
+    ],
+    [
+      "assignments",
+      "slot",
+      "shift_staff",
+      "slot"
+    ],
+    [
+      "assignments",
+      "ticket",
+      "intake",
+      "ticket"
+    ]
+  ]
+}
